@@ -32,13 +32,13 @@ function snitch(team){
 }
 function whoWon(){
     if (team1Score > team2Score){
-        alert("Home wins!");
+        alert("Butterbeers for Home Team!!");
     }
     else if (team1Score < team2Score){
-        alert("Guest Wins!");
+        alert("Butterbeers for Guest Team!!");
     }
     else {
-        alert("It's a Draw!");
+        alert("Butterbeers for All!!");
     }
 }
 function reset(){
