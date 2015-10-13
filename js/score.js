@@ -32,9 +32,18 @@ function snitch(team){
 }
 function whoWon(){
     if (team1Score > team2Score){
-        alert("Team 1 wins!");
+        alert("Home wins!");
+    }
+    else if (team1Score < team2Score){
+        alert("Guest Wins!");
     }
     else {
-        alert("Team 2 Wins!");
+        alert("It's a Draw!");
     }
+}
+function reset(){
+    team1Score = 0;
+    team2Score = 0;
+    document.getElementById("team1").innerHTML = team1Score;
+    document.getElementById("team2").innerHTML = team2Score;
 }
